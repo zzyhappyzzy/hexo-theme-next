@@ -34,7 +34,7 @@ page:
 footer:
   powered: "由 %s 強力驅動"
   theme: 主題
-
+  totalVisits: "总访问量"
 
 counter:
   tag_cloud:

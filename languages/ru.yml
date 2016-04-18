@@ -32,6 +32,7 @@ page:
 footer:
   powered: "Powered by %s"
   theme: Theme
+  totalVisits: "Total visits"
 
 counter:
   tag_cloud:
