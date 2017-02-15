@@ -500,6 +500,11 @@ vendors:
   canvas_nest:
 
 
+#reward
+reward_comment: 重在参与哈 ヾ(≧▽≦*)o
+wechatpay: /payment/pay_weixin.png
+alipay: /payment/pay_alipay.png
+
 
 # Assets
 css: css
