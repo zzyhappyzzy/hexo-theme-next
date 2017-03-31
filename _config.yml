@@ -282,7 +282,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: zhenchyblog
 
 # Hypercomments
 #hypercomments_id:
@@ -306,9 +306,9 @@ mathjax:
 ##  type: button
 
 # Share
-#jiathis:
+jiathis:
 # Warning: JiaThis does not support https.
-#add_this_id:
+  add_this_id: 2129458
 
 # Share
 #duoshuo_share: true
@@ -334,11 +334,11 @@ cnzz_siteid: 1261359163
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
+#duoshuo_info:
+#  ua_enable: true
+#  admin_enable: false
+#  user_id: 0
+#  admin_nickname: Author
 
 
 # Facebook SDK Support.
