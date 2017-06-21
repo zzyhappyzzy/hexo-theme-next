@@ -12,14 +12,27 @@
 
 {% if theme.copyright %}
 <div class="powered-by">
-  {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
+  {{ __('footer.powered', '<a class="theme-link" style="font-weight: bold" href="https://hexo.io">Hexo</a>') }}
 </div>
 
 <div class="powered-by">
   {{ __('footer.theme') }} -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" style="font-weight: bold" href="https://github.com/iissnan/hexo-theme-next">
     NexT.{{ theme.scheme }}
   </a>
+</div>
+
+<div class="powered-by">
+{{ __('Hosted by&nbsp;') }} -
+ <span>
+   <a class="theme-link" style="font-weight: bold" href="https://pages.coding.me">
+     Coding Pages
+   </a>
+   &nbsp;&nbsp;&&&nbsp;&nbsp;
+   <a class="theme-link" style="font-weight: bold" href="https://pages.github.com/">
+     Github Pages
+   </a>
+ </span>
 </div>
 
 <div class="theme-info">
@@ -30,4 +43,3 @@
 {% block footer %}{% endblock %}
 
 {% endif %}
-
