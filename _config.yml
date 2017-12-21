@@ -27,7 +27,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "zyoung"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -55,7 +55,7 @@ footer:
     version: false
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
+  custom_text: Hosted by <a target="_blank" href="https://pages.coding.me">Coding Pages</a>&nbsp;&nbsp;&&&nbsp;&nbsp;<a target="_blank" href="https://pages.github.com/">Github Pages</a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -353,9 +353,9 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: zhenchyblog
-  count: true
+  count: false
 
 # Hypercomments
 #hypercomments_id:
@@ -388,7 +388,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zMjU3NS85MTM2
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -542,7 +542,7 @@ firestore:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -597,7 +597,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -797,7 +797,7 @@ vendors:
   needMoreShare2:
 
 #reward
-reward_comment: 重在参与哈 ヾ(≧▽≦*)o
+reward_comment: 存粹没事瞎折腾 ヾ(≧▽≦*)o
 wechatpay: /payment/pay_weixin.png
 alipay: /payment/pay_alipay.png
 
